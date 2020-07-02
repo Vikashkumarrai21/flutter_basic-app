@@ -32,7 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
         body: Stack(
           children: <Widget>[
             Image(
-              image: AssetImage('assets/logos/mainpic.PNG'),//this pic can download and set in assets directory in logos folder
+              image: AssetImage('assets/logos/mainpic.PNG'),//this pic can download and set in assets directory in logos folder carefully
               width: double.infinity,
               fit: BoxFit.fitWidth,
             ),
